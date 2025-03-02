@@ -15,5 +15,5 @@ No hay mucha información disponible, o también puede ser que no busqué lo suf
 - **Potencia del Motor Soportada:** Compatible con motores de hasta 140 HP
 - **Compatibilidad:** Sustituto directo para motores Hyundai Starex 2.5L, sin necesidad de adaptaciones adicionales.<br/>
 
-Más adelante se verá para que sirven estos datos, pero por ahora solo se mencionan.
+Más adelante se verá para que sirven estos datos, pero por ahora solo se mencionan. AÑADIR FOTO EPICA DELE TURBO
 ## Análisis Ciclo Brayton 
