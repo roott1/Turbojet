@@ -20,6 +20,10 @@ No hay mucha información disponible, o también puede ser que no busqué lo suf
 Más adelante se verá para que sirven estos datos, pero por ahora solo se mencionan. AÑADIR FOTO EPICA DELE TURBO
 ## Análisis Ciclo Brayton 
 Lo mejor para analizar el ciclo es el clásico diagrama T-s, que se muestra a continuación,
+<p align="center">
+  <img src="varios/brayton.svg" alt="Gráfico T-s del ciclo Brayton" width="500"/>
+</p>
+
 - (1) Capta aire ambiente, a 293 K y 101.325 kPa, a la entrada del compresor
 - (2) El aire luego es comprimido (como soporta 2.2 bares suponemos que esta es su relacion de presión) hasta 222.915 kPa, y suponiendo tambien una eficiencia del 72%, el aire alcanza una temperatura de aprox 400 K, todo esto a la salida del compresor y entrada a camara de combustión.
 - (3) A la salida de la cámara de combustión y entrada de la turbina, se asume una temperatura de 1123 K (850°C) ya que es la temperatura maxima de operacion, en nuestro caso esta temperatura se alcanza por la cámara de combustión, en un auto por los gases de escape.
