@@ -49,8 +49,11 @@ De lo analizado del cliclo Brayton sabemos que necesitamos 790 kJ/kg, a 0.09 kg/
 ### Temperatura de llama adiabatica y límites de flamabilidad
 Para calcular la temperatura de llama adiabática, en términos simples, la temperatura que alcanza la reacción, se requiere una metedología más rigurosa, ya que la capacidad calorifica a presión constante varía con la temperatura, de hecho, se aproxima con un polinomio de tercer orden, siendo su forma general,<br>
 <p align="center">
-  <img src="varios/cp_fcn.svg" alt="varios/cp_fcn.svg" width="300"/>
+  <img src="varios/cp_fcn.svg" alt="varios/cp_fcn.svg" width="275"/>
 </p>
 
-Otro cuidado es que los reactivos no se encuentran en la temperatura estándar, por lo tanto hay que "enfriarlos". De todas maneras se hará el analisis respectivo mas adelante, por ahora solamente se presentará la ecuación de trabajo, considerando una humedad del aire del 70% y obviamente incluyendo el nitrógeno,
+Otro cuidado es que los reactivos no se encuentran en la temperatura estándar, por lo tanto hay que "enfriarlos". De todas maneras se hará el analisis respectivo mas adelante, por ahora solamente se presentará la ecuación de trabajo, considerando una humedad del aire del 70% y usando la composición del aire (21% oxígeno, 79% nitrógeno),<br>
+<p align="center">
+  <img src="varios/ec_comb.svg" alt="varios/ec_comb.svg" width="700"/>
+</p>
 ## Diseño de la cámara de combustión
