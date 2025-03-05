@@ -21,7 +21,7 @@ Más adelante se verá para que sirven estos datos, pero por ahora solo se menci
 ## Análisis Ciclo Brayton 
 Lo mejor para analizar el ciclo es el clásico diagrama T-s, que se muestra a continuación,
 <p align="center">
-  <img src="varios/brayton_ts.svg" alt="Gráfico T-s del ciclo Brayton" width="500"/>
+  <img src="varios/brayton_ts.svg" alt="varios/brayton_ts.svg" width="500"/>
 </p>
 
 - (1) Capta aire ambiente, a 293 K y 101.325 kPa, a la entrada del compresor
@@ -35,6 +35,10 @@ Acerca del empuje producido tampoco es posible saberlo con certeza, quizas podri
 ## Diseño cámara combustión
 Me gustaría comenzar diciendo que el combustible a utilizar sera GLP (gas licuado del pétroleo), ya qué no se me ocurre otra cosa como combustible gaseoso. Para el que no lo conozca se le conoce como "gas", asi como "se acabo el gas":
 <p align="center">
-  <img src="varios/lipi.jpg" alt="GAS" width="500"/>
+  <img src="varios/lipi.jpg" alt="varios/lipi.jpg" width="500"/>
 </p>
 Ahora podemos plantear la reacción balanceada para la combustión del GLP, asumiendo un GLP compuesto de 90% propano y 10% butano: 
+<p align="center">
+  <img src="varios/rxn.svg" alt="varios/rxn.svg" width="500"/>
+</p>
+
