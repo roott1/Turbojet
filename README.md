@@ -29,5 +29,8 @@ Lo mejor para analizar el ciclo es el clásico diagrama T-s, que se muestra a co
 - (3) A la salida de la cámara de combustión y entrada de la turbina, se asume una temperatura de 1123 K (850°C) ya que es la temperatura maxima de operacion, en nuestro caso esta temperatura se alcanza por la cámara de combustión, en un auto por los gases de escape.
 - (4) Después de que entra el aire a la turbina no sé que va a pasar. No hay información y en teoría podría hacer un modelo y simularla, pero en la práctica es muy dificil. Además tengo todo la informacion que el analisis del ciclo pudo aportarme para la camara de combustion, que es lo mas critico.<br/>
 
+Finalmente se puede determinar que la energía necesaria para subir el aire hasta 1123 K son 790 kJ/kg.<br/>
+
 Acerca del empuje producido tampoco es posible saberlo con certeza, quizas podria hacer algunos arreglos teoricos mas adelante, pero al menos el modelo desarrollado contempla un flujo ahogado, y para la temperatura que se alcanza en la turbina esto signifcaría una relación de presión de al menos 2.53, y con 2.2 nos quedamos cortos, aunque mas adelante se hará una discusion sobre esto
 ## Diseño cámara combustión
+Me gustaría comenzar diciendo que el combustible a utilizar sera GLP (gas licuado del pétroleo), ya qué no se me ocurre otra cosa como combustible gaseoso. Para el que no lo conozca es esto: FOTO BALÓN ABASTIBLE
