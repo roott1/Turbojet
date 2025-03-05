@@ -39,6 +39,6 @@ Me gustaría comenzar diciendo que el combustible a utilizar sera GLP (gas licua
 </p>
 Ahora podemos plantear la reacción balanceada para la combustión del GLP, asumiendo un GLP compuesto de 90% propano y 10% butano: 
 <p align="center">
-  <img src="varios/rxn.svg" alt="varios/rxn.svg" width="500"/>
+  <img src="varios/rxn_comb.svg" alt="varios/rxn_comb.svg" width="500"/>
 </p>
 
