@@ -46,7 +46,7 @@ Ahora podemos plantear la reacción balanceada para la combustión del GLP, asum
 Así, se obtiene una relación de 4.15 O2/F [kg/kg], queriendo decir que se necesitan 4.15 kg de oxígeno "O2" por kg de "FUEL" (butano y propano), pero como el fluido que va en el turbo es aire, que es aprox 20% oxígeno, se tiene una relación de 19.76 A/F [kg/kg].<br><br>
 Antes de continuar asumiremos una última cosa, a justificar después, que es el flujo másico de aire de 0.09 kg/s, pero se obtiene al sacar cuentas del régimen de operación del Hyundai Starex, auto al cual le fue diseñado el turbo que se va a modificar.<br><br>
 De lo analizado del cliclo Brayton sabemos que necesitamos 790 kJ/kg, a 0.09 kg/s de aire esto equivale a una tasa de 71.1 kW. Al utilizar como combustible GLP, principalmente propano, posee un PCI (poder calorífico inferior) de 46 350 kJ/kg, podemos estimar el flujo másico de combustible en 0.00155 kg/s, lo que nos permite calcular el flujo masico de aire estequiometrico para lograr la combustión, en este caso 0.0306 kg/s, es decir, cerca de un 1/3 del flujo de aire total (0.09 kg/s). Destacar que como el flujo de combustible es mucho menor que el del aire (2% aprox), podemos tratar la combustión como un proceso de adición de calor (flujo Rayleigh). Si el flujo de combustible fuera comparable con el del aire esto no sería posible y se escaparía de este proyecto.
-### Temperatura de llama adiabatica y límites de flamabilidad
+### Temperatura de llama adiabatica
 Para calcular la temperatura de llama adiabática, en términos simples, la temperatura que alcanza la reacción, se requiere una metedología más rigurosa, ya que la capacidad calorifica a presión constante varía con la temperatura, de hecho, se aproxima con un polinomio de tercer orden, siendo su forma general,<br>
 <p align="center">
   <img src="varios/cp_fcn.svg" alt="varios/cp_fcn.svg" width="275"/>
@@ -56,4 +56,14 @@ Otro cuidado es que los reactivos no se encuentran en la temperatura estándar, 
 <p align="center">
   <img src="varios/ec_comb.svg" alt="varios/ec_comb.svg" width="700"/>
 </p>
+
+Podemos entonces encontrar 4 soluciones para la temperatura de la llama, 2 reales y 2 complejas. De la reales se tienen 2 posibilidades, 2222 K (1949 °C) o 5015 K (4742 °C), sin embargo al revisar bibliografia, nos encontramos que la temperatura ronda cercana a 1980 °C, por lo tanto nos quedamos con el primer resultado, es decir, 2222 K. La mala noticia es que esto nos presenta 2 problemas,
+- La llama es lo suficientemente alta para fundir el acero (1500 °C), lo que derretiría la cámara de combustión.
+- Necesitamos que el aire llegue a una temperatura de 1123 K, como mencionamos anteriormente, no debe entrar a la turbina a una temperatura superior a esta.
+
+La buena noticia es que todo tiene solución, y es que la combustión solo ocupa 1/3 del aire disponible, como se analizó anteriormente, por lo tanto el resto del aire va a cumplir 2 funciones,
+- "Refrigerar" las paredes de la cámara de combustión, en respuesta al primer problema
+- "Diluirse" con el resto del aire de la combustion, para bajar la temperatura hasta 1123 K, antes de entrar a la turbina.
+
+Entonces será de vital importancia diseñar la cámara de combustión en dos cilindros concentricos, para divir el aire en un flujo primario (que participa en la reacción) y en uno secundario (que refrigera y diluye)
 ## Diseño de la cámara de combustión
