@@ -4,7 +4,7 @@ La idea del repositorio es contar como yo hice el turborreactor, quizás hayan m
 - [Primeras ideas](#Primeras-ideas)
 - [Acerca del turbo GT1749S](#Acerca-del-turbo-GT1749S)
 - [Análisis Ciclo Brayton](#Análisis-Ciclo-Brayton)
-- [Diseño cámara combustión](#Diseño-cámara-combustión)
+- [Análisis de la reacción de combustión](#Análisis-de-la-reacción-de-combustión)
 ## Primeras ideas
 La verdad es que no hice la turbina entera yo, si es que se le puede llamar así, reutilice el turbo de un auto, el GT1749S. Muchas razones hay para esto, pero la principal es que no se como manufacturar el diseño, en efecto, puedo hacer todos los calculos y simulaciones pero de nada sirve si no puedo hacerlo, otra razón es que se abaratan los costos, ya que fue un "aporte voluntario" (gracias papá) y tambien está la razón del tiempo, ya que se tienen componentes listos y solo faltaria diseñar lo que falta (camara de combustión). Siguiendo la idea, el nombre más apropiado para el preyecto debería ser "Modificación de turbo a turborreactor".<br><br>
 Bueno entonces ya sabemos que vamos a modificar un turbo y que se debe hacer la camara de combustión, por lo tanto primero es buscar las especificaciones de operación del turbo, hacer un par de supuestos, saber sus restricciones de operación, etc. Luego se analiza el ciclo Brayton y se podrá comenzar a diseñar la camara de combustión, ocupando para esto Inventor y ANSYS Fluent
@@ -31,14 +31,16 @@ Lo mejor para analizar el ciclo es el clásico diagrama T-s, que se muestra a co
 Finalmente se puede determinar que la energía necesaria para subir el aire hasta 1123 K son 790 kJ/kg.<br/>
 
 Acerca del empuje producido tampoco es posible saberlo con certeza, quizas podria hacer algunos arreglos teoricos mas adelante, pero al menos el modelo desarrollado contempla un flujo ahogado, y para la temperatura que se alcanza en la turbina esto signifcaría una relación de presión de al menos 2.53, y con 2.2 nos quedamos cortos, aunque mas adelante se hará una discusion sobre esto
-## Diseño cámara combustión
-Me gustaría comenzar diciendo que el combustible a utilizar sera GLP (gas licuado del pétroleo), ya qué no se me ocurre otra cosa como combustible gaseoso. Para el que no lo conozca se le conoce como "gas", asi como "se acabo el gas":
+## Análisis de la reacción de combustión
+Me gustaría comenzar esta sección diciendo que el combustible a utilizar será GLP (gas licuado del pétroleo), ya qué no se me ocurre otra cosa como combustible gaseoso. Para el que no lo conozca se le conoce como "gas", asi como "se acabo el gas":
 <p align="center">
   <img src="varios/lipi.jpg" alt="varios/lipi.jpg" width="500"/>
 </p>
 Ahora podemos plantear la reacción balanceada para la combustión del GLP, asumiendo un GLP compuesto de 90% propano y 10% butano:<br><br>
-
 <p align="center">
   <img src="varios/rxn_comb.svg" alt="varios/rxn_comb.svg" width="500"/>
 </p>
 
+Así, se obtiene una relación de 4.15 O2/F [kg/kg], queriendo decir que se necesitan 4.15 kg de oxígeno "O2" por kg de "FUEL" (butano y propano), pero como el fluido que va en el turbo es aire, que es aprox 20% oxígeno, se tiene una relación de 19.76 A/F [kg/kg].<br><br>
+Antes de continuar asumiremos una última cosa, a justificar después, que es el flujo másico de aire de 0.09 kg/s, pero se obtiene al sacar cuentas del régimen de operación del Hyundai Starex, auto al cual le fue diseñado el turbo que se va a modificar.<br><br>
+De lo analizado del cliclo Brayton sabemos que necesitamos 790 kJ/kg, a 0.09 kg/s de aire esto equivale a una tasa de 71.1 kW. Al utilizar como combustible GLP, principalmente propano, posee un PCI (poder calorífico inferior) de 46 350 kJ/kg, podemos estimar el flujo másico de combustible en 0.00155 kg/s, lo que nos permite calcular el flujo masico de aire estequiometrico para lograr la combustión, en este caso 0.0306 kg/s, es decir, cerca de un 1/3 del flujo de aire total (0.09 kg/s). Destacar que como el flujo de combustible es mucho menor que el del aire (2% aprox), podemos tratar la combustión como un proceso de adición de calor (flujo Rayleigh). Si el flujo de combustible fuera comparable con el del aire esto no sería posible y se escaparía de este proyecto.
