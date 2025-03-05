@@ -47,7 +47,10 @@ Así, se obtiene una relación de 4.15 O2/F [kg/kg], queriendo decir que se nece
 Antes de continuar asumiremos una última cosa, a justificar después, que es el flujo másico de aire de 0.09 kg/s, pero se obtiene al sacar cuentas del régimen de operación del Hyundai Starex, auto al cual le fue diseñado el turbo que se va a modificar.<br><br>
 De lo analizado del cliclo Brayton sabemos que necesitamos 790 kJ/kg, a 0.09 kg/s de aire esto equivale a una tasa de 71.1 kW. Al utilizar como combustible GLP, principalmente propano, posee un PCI (poder calorífico inferior) de 46 350 kJ/kg, podemos estimar el flujo másico de combustible en 0.00155 kg/s, lo que nos permite calcular el flujo masico de aire estequiometrico para lograr la combustión, en este caso 0.0306 kg/s, es decir, cerca de un 1/3 del flujo de aire total (0.09 kg/s). Destacar que como el flujo de combustible es mucho menor que el del aire (2% aprox), podemos tratar la combustión como un proceso de adición de calor (flujo Rayleigh). Si el flujo de combustible fuera comparable con el del aire esto no sería posible y se escaparía de este proyecto.
 ### Temperatura de llama adiabatica y límites de flamabilidad
-Para calcular la temperatura de llama adiabática, en términos simples, la temperatura que alcanza la reacción, se requiere una metedología más rigurosa, ya que la capacidad calorifica a presión constante varía con la temperatura, de hecho, se aproxima con un polinomio de tercer orden, siendo su forma general, 
+Para calcular la temperatura de llama adiabática, en términos simples, la temperatura que alcanza la reacción, se requiere una metedología más rigurosa, ya que la capacidad calorifica a presión constante varía con la temperatura, de hecho, se aproxima con un polinomio de tercer orden, siendo su forma general,<br>
+<p align="center">
+  <img src="varios/cp_fcn.svg" alt="varios/cp_fcn.svg" width="300"/>
+</p>
 
-
+Otro cuidado es que los reactivos no se encuentran en la temperatura estándar, por lo tanto hay que "enfriarlos". De todas maneras se hará el analisis respectivo mas adelante, por ahora solamente se presentará la ecuación de trabajo,
 ## Diseño de la cámara de combustión
