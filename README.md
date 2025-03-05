@@ -52,5 +52,5 @@ Para calcular la temperatura de llama adiabática, en términos simples, la temp
   <img src="varios/cp_fcn.svg" alt="varios/cp_fcn.svg" width="300"/>
 </p>
 
-Otro cuidado es que los reactivos no se encuentran en la temperatura estándar, por lo tanto hay que "enfriarlos". De todas maneras se hará el analisis respectivo mas adelante, por ahora solamente se presentará la ecuación de trabajo,
+Otro cuidado es que los reactivos no se encuentran en la temperatura estándar, por lo tanto hay que "enfriarlos". De todas maneras se hará el analisis respectivo mas adelante, por ahora solamente se presentará la ecuación de trabajo, considerando una humedad del aire del 70% y obviamente incluyendo el nitrógeno,
 ## Diseño de la cámara de combustión
