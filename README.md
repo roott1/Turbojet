@@ -5,7 +5,7 @@ La idea del repositorio es contar como yo hice el turborreactor, quizás hayan m
 - [Acerca del turbo GT1749S](#Acerca-del-turbo-GT1749S)
 - [Análisis Ciclo Brayton](#Análisis-Ciclo-Brayton)
 - [Análisis de la reacción de combustión](#Análisis-de-la-reacción-de-combustión)
-  - [Temperatura de llama adiabatica y límites de flamabilidad](Temperatura-de-llama-adiabatica-y-límites-de-flamabilidad)
+  - [Temperatura de llama adiabatica](Temperatura-de-llama-adiabatica)
 - [Diseño de la cámara de combustión](Diseño-de-la-cámara-de-combustión)
 ## Primeras ideas
 La verdad es que no hice la turbina entera yo, si es que se le puede llamar así, reutilice el turbo de un auto, el GT1749S. Muchas razones hay para esto, pero la principal es que no se como manufacturar el diseño, en efecto, puedo hacer todos los calculos y simulaciones pero de nada sirve si no puedo hacerlo, otra razón es que se abaratan los costos, ya que fue un "aporte voluntario" (gracias papá) y tambien está la razón del tiempo, ya que se tienen componentes listos y solo faltaria diseñar lo que falta (camara de combustión). Siguiendo la idea, el nombre más apropiado para el preyecto debería ser "Modificación de turbo a turborreactor".<br><br>
