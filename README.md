@@ -5,8 +5,8 @@ La idea del repositorio es contar como yo hice el turborreactor, quizás hayan m
 - [Acerca del turbo GT1749S](#Acerca-del-turbo-GT1749S)
 - [Análisis Ciclo Brayton](#Análisis-Ciclo-Brayton)
 - [Análisis de la reacción de combustión](#Análisis-de-la-reacción-de-combustión)
-  - [Temperatura de llama adiabatica](Temperatura-de-llama-adiabatica)
-- [Diseño de la cámara de combustión](Diseño-de-la-cámara-de-combustión)
+  - [Temperatura de llama adiabatica](#Temperatura-de-llama-adiabatica)
+- [Diseño y simulado](#Diseño-y-simulado)
 ## Primeras ideas
 La verdad es que no hice la turbina entera yo, si es que se le puede llamar así, reutilice el turbo de un auto, el GT1749S. Muchas razones hay para esto, pero la principal es que no se como manufacturar el diseño, en efecto, puedo hacer todos los calculos y simulaciones pero de nada sirve si no puedo hacerlo, otra razón es que se abaratan los costos, ya que fue un "aporte voluntario" (gracias papá) y tambien está la razón del tiempo, ya que se tienen componentes listos y solo faltaria diseñar lo que falta (camara de combustión). Siguiendo la idea, el nombre más apropiado para el preyecto debería ser "Modificación de turbo a turborreactor".<br><br>
 Bueno entonces ya sabemos que vamos a modificar un turbo y que se debe hacer la camara de combustión, por lo tanto primero es buscar las especificaciones de operación del turbo.
@@ -66,4 +66,4 @@ La buena noticia es que todo tiene solución, y es que la combustión solo ocupa
 - "Diluirse" con el resto del aire de la combustion, para bajar la temperatura hasta 1123 K, antes de entrar a la turbina.
 
 Entonces será de vital importancia diseñar la cámara de combustión en dos cilindros concentricos, para divir el aire en un flujo primario (que participa en la reacción) y en uno secundario (que refrigera y diluye)
-## Diseño de la cámara de combustión
+## Diseño y simulado
