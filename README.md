@@ -69,4 +69,8 @@ La buena noticia es que todo tiene solución, y es que la combustión solo ocupa
 Entonces será de vital importancia diseñar la cámara de combustión en dos cilindros concentricos, para divir el aire en un flujo primario (que participa en la reacción) y en uno secundario (que refrigera y diluye)
 ## Diseño y simulado
 Es debatible que esta es la parte mas tediosa, ya que no hay nada escrito, solamente unas "recomendaciones iniciales de diseño", luego de eso hay que seguir un ciclo interminable de rediseño-simulado-rediseño-simulado-rediseño-simulado-etc. Asi que compartire fotos del diseño final y resultados de simulación,
+<p align="center">
+  <img src="varios/inventor.png" alt="varios/inventor.png" width="500"/>
+</p>
+
 ## Discusión final
