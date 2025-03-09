@@ -8,6 +8,7 @@ La idea del repositorio es contar como yo hice el turborreactor, quizás hayan m
   - [Temperatura de llama adiabatica](#Temperatura-de-llama-adiabatica)
 - [Diseño y simulado](#Diseño-y-simulado)
 - [Discusión final](#Discusión-final)
+- [Simulado](#Simulado)
 ## Primeras ideas
 La verdad es que no hice la turbina entera yo, si es que se le puede llamar así, reutilice el turbo de un auto, el GT1749S. Muchas razones hay para esto, pero la principal es que no se como manufacturar el diseño, en efecto, puedo hacer todos los calculos y simulaciones pero de nada sirve si no puedo hacerlo, otra razón es que se abaratan los costos, ya que fue un "aporte voluntario" (gracias papá) y tambien está la razón del tiempo, ya que se tienen componentes listos y solo faltaria diseñar lo que falta (camara de combustión). Siguiendo la idea, el nombre más apropiado para el preyecto debería ser "Modificación de turbo a turborreactor".<br><br>
 Bueno entonces ya sabemos que vamos a modificar un turbo y que se debe hacer la camara de combustión, por lo tanto primero es buscar las especificaciones de operación del turbo.
@@ -73,4 +74,12 @@ Es debatible que esta es la parte mas tediosa, ya que no hay nada escrito, solam
   <img src="varios/inventor.png" alt="varios/inventor.png" width="500"/>
 </p>
 
+En esta primera imagen se puede ver como queda todo armado, por la izquierda se tiene la entrada de aire, luego sale por la "caracola" y entra a la cámara de combustion. El agujero pequeño de color naranjo en la inyeccion de combustible. Luego entra de nuevo por la "caracola" a la turbina y finalmente sale por la derecha. Al centro va la lubricacion que por ahora va a ser WD-40, no recomendable ya que puede incendiarse.
+<p align="center">
+  <img src="varios/chamb_inv.png" alt="varios/chamb_inv.png" width="500"/>
+</p>
+
+En esta segunda imagen se ve el interior, conocido como el "liner". Los agujeros son los que permiten el flujo de aire entre el primario y el secundario.<br>
+No se si lo he mencionado, pero la combustion se produce por el chispaso de una bujía, que deberia ser un agujero adyacente al del combustible, pero no se que bujía ocupar hasta el momento.
+### Simulado
 ## Discusión final
