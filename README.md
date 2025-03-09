@@ -92,3 +92,12 @@ Es de mi agrado comunicar que los resultados son satisfactorios, es decir, hemos
 Empero la simulación nos deja una gran incognita, ya que el programa asume que la reacción ocurre, entonces si es que ocurre la reacción obtenemos esos resultados.
 Por lo tanto hay total incertidumbre hasta antes de la combustión. No queda más que experimentar, tener fé y esperar lo mejor para ver que ocurre, y confirmar los resultados de simulación.
 A continuación se muestran los tan dichosos resultados,
+<p align="center">
+  <img src="varios/outlet_temp.png" alt="varios/outlet_temp.png" width="500"/>
+</p>
+<p align="center">
+  <img src="varios/liner_ext.png" alt="varios/liner_ext.png" width="500"/>
+</p>
+<p align="center">
+  <img src="varios/liner_int.png" alt="varios/liner_int.png" width="500"/>
+</p>
