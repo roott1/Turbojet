@@ -93,11 +93,11 @@ Empero la simulación nos deja una gran incognita, ya que el programa asume que 
 Por lo tanto hay total incertidumbre hasta antes de la combustión. No queda más que experimentar, tener fé y esperar lo mejor para ver que ocurre, y confirmar los resultados de simulación.
 A continuación se muestran los tan dichosos resultados,
 <p align="center">
-  <img src="varios/outlet_temp.png" alt="varios/outlet_temp.png" width="500"/>
+  <img src="varios/outlet_temp.png" alt="varios/outlet_temp.png" width="600"/>
 </p>
 <p align="center">
-  <img src="varios/liner_ext.png" alt="varios/liner_ext.png" width="500"/>
+  <img src="varios/liner_ext.png" alt="varios/liner_ext.png" width="600"/>
 </p>
 <p align="center">
-  <img src="varios/liner_int.png" alt="varios/liner_int.png" width="500"/>
+  <img src="varios/liner_int.png" alt="varios/liner_int.png" width="600"/>
 </p>
