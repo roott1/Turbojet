@@ -7,8 +7,7 @@ La idea del repositorio es contar como yo hice el turborreactor, quizás hayan m
 - [Análisis de la reacción de combustión](#Análisis-de-la-reacción-de-combustión)
   - [Temperatura de llama adiabatica](#Temperatura-de-llama-adiabatica)
 - [Diseño y simulado](#Diseño-y-simulado)
-- [Discusión final](#Discusión-final)
-- [Simulado](#Simulado)
+  - [Simulado](#Simulado)
 ## Primeras ideas
 La verdad es que no hice la turbina entera yo, si es que se le puede llamar así, reutilice el turbo de un auto, el GT1749S. Muchas razones hay para esto, pero la principal es que no se como manufacturar el diseño, en efecto, puedo hacer todos los calculos y simulaciones pero de nada sirve si no puedo hacerlo, otra razón es que se abaratan los costos, ya que fue un "aporte voluntario" (gracias papá) y tambien está la razón del tiempo, ya que se tienen componentes listos y solo faltaria diseñar lo que falta (camara de combustión). Siguiendo la idea, el nombre más apropiado para el preyecto debería ser "Modificación de turbo a turborreactor".<br><br>
 Bueno entonces ya sabemos que vamos a modificar un turbo y que se debe hacer la camara de combustión, por lo tanto primero es buscar las especificaciones de operación del turbo.
@@ -20,7 +19,11 @@ No hay mucha información disponible, o también puede ser que no busqué lo suf
 - **Potencia del Motor Soportada:** Compatible con motores de hasta 140 HP
 - **Compatibilidad:** Sustituto directo para motores Hyundai Starex 2.5L, sin necesidad de adaptaciones adicionales.<br>
 
-Más adelante se verá para que sirven estos datos, pero por ahora solo se mencionan. AÑADIR FOTO EPICA DELE TURBO
+Más adelante se verá para que sirven estos datos, pero por ahora solo se mencionan.
+<p align="center">
+  <img src="varios/turbo.jpg" alt="varios/turbo.jpg" width="500"/>
+</p>
+
 ## Análisis Ciclo Brayton 
 Lo mejor para analizar el ciclo es el clásico diagrama T-s, que se muestra a continuación,
 <p align="center">
@@ -82,4 +85,10 @@ En esta primera imagen se puede ver como queda todo armado, por la izquierda se 
 En esta segunda imagen se ve el interior, conocido como el "liner". Los agujeros son los que permiten el flujo de aire entre el primario y el secundario.<br>
 No se si lo he mencionado, pero la combustion se produce por el chispaso de una bujía, que deberia ser un agujero adyacente al del combustible, pero no se que bujía ocupar hasta el momento.
 ### Simulado
-## Discusión final
+Es de mi agrado comunicar que los resultados son satisfactorios, es decir, hemos podido corregir los 2 problemas:
+- La cámara de combustión no se derrite.
+- El aire sale a la temperatura deseada.<br>
+
+Empero la simulación nos deja una gran incognita, ya que el programa asume que la reacción ocurre, entonces si es que ocurre la reacción obtenemos esos resultados.
+Por lo tanto hay total incertidumbre hasta antes de la combustión. No queda más que experimentar para ver que ocurre, y confirmar los resultados de simulación.
+A continuación se muestran los tan dichosos resultados,
