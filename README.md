@@ -107,4 +107,18 @@ A continuación se muestran los tan dichosos resultados,
 # Memoria Cálculo
 En sección se entregarán los calculos realizados, que respalden los resultados anteriores.
 ## Cámara de combustión
-Para la cámara de combustión, seguimos el procedimiento descrito en [1](varios/Diseno-basico-de-una-camara-de-combustion-para-una-micro-turbina-a-gas.pdf), adaptado a nustras necesidades y resultados. 
+Para la cámara de combustión, seguimos el procedimiento descrito en [1](varios/Diseno-basico-de-una-camara-de-combustion-para-una-micro-turbina-a-gas.pdf), adaptado a nuestras necesidades y resultados. Comenzamos calculando el área de scción transversal, dada por,
+<p align="center">
+  <img src="varios/area.svg" alt="varios/area.svg" width="400"/>
+</p>
+
+Donde,
+- El flujo másico del gas es 0.0276 kg/s (Se recomienda usar 90% del estequiometrico)
+- R = 8.314e-5 m^3 bar / K mol
+- La temperatura de combustión la tomamos como 2222 K
+- k = 1.4
+- El número de Ma como 0.06449, asumiendo una velocidad del aire de 50 m/s
+- Una presion de 2.2 bar
+
+Esto nos entrega un Area = 0.0714 m^2</br>
+El volumen lo calculamos mediante, 
