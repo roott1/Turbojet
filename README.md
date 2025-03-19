@@ -122,3 +122,16 @@ Donde,
 
 Esto nos entrega un Area = 0.0714 m^2</br>
 El volumen lo calculamos mediante, 
+<p align="center">
+  <img src="varios/vol.svg" alt="varios/vol.svg" width="400"/>
+</p>
+
+Donde,
+- Se usa el flujo de aire total, 0.09 kg/s
+- El loading, se usa el mismo que el de la referencia anterior, 110
+- Presión de 2.2 bar 
+- Y una temperatura de 400 K (salida del compresor)
+
+Esto da un Volumen de 1.9792e-04 m^3</br>
+Sin embargo, esto nos indica que el largo de la cámara de combustión deberia de ser de 3 mm. Por lo tanto se ajustan las dimensiones a un largo de 10cm y un diametro de 5cm, obteniendo el mismo volumen objetivo.</br>
+La separación entre la carcasa y cámara de combustion se recomienda usar la mitad del diametro del inductor [2](https://www.youtube.com/watch?v=JzwfzgfJiJ4&t=685s&ab_channel=TechIngredients), es decir, 1.7cm
