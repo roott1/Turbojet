@@ -107,7 +107,9 @@ A continuación se muestran los tan dichosos resultados,
 # Memoria Cálculo
 En sección se entregarán los calculos realizados, que respalden los resultados anteriores.
 ## Cámara de combustión
-Para la cámara de combustión, seguimos el procedimiento descrito en [1](varios/Diseno-basico-de-una-camara-de-combustion-para-una-micro-turbina-a-gas.pdf), adaptado a nuestras necesidades y resultados. Comenzamos calculando el área de scción transversal, dada por,
+Para la cámara de combustión, seguimos el procedimiento descrito en [1](varios/Diseno-basico-de-una-camara-de-combustion-para-una-micro-turbina-a-gas.pdf), adaptado a nuestras necesidades y resultados.
+## Area
+Comenzamos calculando el área de scción transversal, dada por,
 <p align="center">
   <img src="varios/area.svg" alt="varios/area.svg" width="400"/>
 </p>
@@ -121,6 +123,7 @@ Donde,
 - Una presion de 2.2 bar
 
 Esto nos entrega un Area = 0.0714 m^2</br>
+## Volumen
 El volumen lo calculamos mediante, 
 <p align="center">
   <img src="varios/vol.svg" alt="varios/vol.svg" width="400"/>
@@ -134,4 +137,6 @@ Donde,
 
 Esto da un Volumen de 1.9792e-04 m^3</br>
 Sin embargo, esto nos indica que el largo de la cámara de combustión deberia de ser de 3 mm. Por lo tanto se ajustan las dimensiones a un largo de 10cm y un diametro de 5cm, obteniendo el mismo volumen objetivo.</br>
+## Carcasa
 La separación entre la carcasa y cámara de combustion se recomienda usar la mitad del diametro del inductor [2](https://www.youtube.com/watch?v=JzwfzgfJiJ4&t=685s&ab_channel=TechIngredients), es decir, 1.7cm
+## Agujeros
