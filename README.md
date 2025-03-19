@@ -107,3 +107,4 @@ A continuación se muestran los tan dichosos resultados,
 # Memoria Cálculo
 En sección se entregarán los calculos realizados, que respalden los resultados anteriores.
 ## Cámara de combustión
+Para la cámara de combustión, seguimos el procedimiento descrito en [1](varios/
