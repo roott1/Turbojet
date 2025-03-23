@@ -140,3 +140,4 @@ Sin embargo, esto nos indica que el largo de la cámara de combustión deberia d
 ## Carcasa
 La separación entre la carcasa y cámara de combustion se recomienda usar la mitad del diametro del inductor [2](https://www.youtube.com/watch?v=JzwfzgfJiJ4&t=685s&ab_channel=TechIngredients), es decir, 1.7cm
 ## Agujeros
+Para los agujeros se divide el cilindro en filas de agujeros, y debido a las similitudes con la camará de combustión de la tesis se usan dimensiones similares, es decir, agujeros de 7mm para la zona de combustión, y de 4.5mm para las zonas intermedias y de dilución.
